@@ -3,15 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
     <title>First UI : Travel Website</title>
 </head>
-<body class="bg-[#f4f3ec]">
+<body class="bg-[#0f111a] relative">
+    <!---------------------   navbar  ----------------------->
+    <nav class="h-[60px] w-full border-b-2 border-white flex items-center justify-between px-[10px] sm:px-[20px] fixed top-0">
+        <!-------------------  logo  --------------------->
+        <div id="logo-box" class="h-full w-[180px] flex items-center justify-evenly">
+            <img src="logo 2.png" alt="logo" class="h-[45px] w-[45px]">
+            <p class="text-[25px] font-bold text-[#f36f0f]">Harbour</p>
+        </div>
+        <!------------------- link box ------------------------->
+        <div id="link-box" class="h-full w-min hidden lg:flex whitespace-nowrap items-center gap-[10px] px-[10px]">
+            <a href="#">Discover</a>
+            <a href="#">Features</a>
+            <a href="#">About Us</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+        </div>
+        <!-------------------  button  ----------------------------->
+        <div class="h-full w-min px-[10px] whitespace-nowrap hidden lg:flex items-center justify-center">
+            <button>Book Now</button>
+        </div>
+
+        <!-------------------  hamburgur  -------------------------->
+        <div id="hamburgur" class="h-[40px] w-[40px] border-2 border-white lg:hidden flex items-center justify-center">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+
+    <!--------------------   home section  -------------------------->
+    <div id="home" class="h-[630px] w-full absolute top-[60px] flex flex-row px-[10px] sm:px-[20px]">
+        <!---------------------  home content  ------------------------->
+        <div id="home-content" class="h-full w-[60%] border border-white"></div>
+        <!---------------------  home img  ------------------------------->
+        <div id="home-img" class="h-full w-[40%] flex items-center justify-center border border-white">
+            <div class="h-[400px] w-[400px] border border-white">
+                <img src="hero-img.png" alt="home" class="h-full w-full object-cover">
+            </div>
+        </div>
+    </div>
 
     <!--------------------------  script js  --------------------------->
     <script src="script.js"></script>
 </body>
 </html>
-
-

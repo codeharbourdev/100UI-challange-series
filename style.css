@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+}
+
+/********************   navbar  *********************************************/
+/*********************  logo  **************************/
+#logo-box img {
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px black;
+}
+
+/**********************  link box *******************/
+#link-box a {
+    padding: 5px 20px;
+    font-size: 14px;
+    background-color: #f4f3ec;
+    color: black;
+    text-shadow: 0px 0px 1px black;
+    border-radius: 2px;
+    transition: background 1s ease-in-out;
+}
+
+#link-box a:hover {
+    color: white;
+    background-color: #f36f0f;
+}
+
+/***********************  button  *********************/
+button {
+    padding: 5px 20px;
+    background-color: #f36f0f;
+    color: white;
+    border-radius: 25px;
+    transition: background 1s ease-in-out;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+/*********************  hamburgur  ***********************/
+#hamburgur {
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#hamburgur i {
+    color: white;
+    font-size: 25px;
+}
+
+/************************  home section  ************************/
+/************************  home img  ************************/
