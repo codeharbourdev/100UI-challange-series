@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
     <title>First UI : Travel Website</title>
 </head>
+
 <body class="bg-[#0f111a] relative">
     <!---------------------   navbar  ----------------------->
-    <nav class="h-[60px] w-full bg-[#0f111a] border-b-2 border-white flex items-center justify-between px-[10px] sm:px-[20px] fixed top-0 z-10">
+    <nav
+        class="h-[60px] w-full bg-[#0f111a] border-b-2 border-[blueviolet] flex items-center justify-between px-[10px] sm:px-[20px] fixed top-0">
         <!-------------------  logo  --------------------->
         <div id="logo-box" class="h-full w-[180px] flex items-center justify-evenly">
             <img src="logo 2.png" alt="logo" class="h-[45px] w-[45px]">
@@ -36,31 +41,89 @@
     </nav>
 
     <!--------------------   home section  -------------------------->
-    <div id="home" class="h-min xl:h-[630px] w-full absolute top-[60px] flex flex-col xl:flex-row px-[10px] sm:px-[20px] py-[10px]  xl:py-0">
+    <div id="home"
+        class="h-min xl:h-[630px] w-full mt-[60px] flex flex-col xl:flex-row px-[10px] sm:px-[20px] py-[10px]  xl:py-0">
         <!---------------------  home content  ------------------------->
-        <div id="home-content" class="h-min xl:h-full w-full xl:w-[60%] flex flex-col items-center justify-center py-[50px]">
+        <div id="home-content"
+            class="h-min xl:h-full w-full xl:w-[60%] flex flex-col items-center justify-center py-[40px]">
             <!-----------------------  heading 1  -------------------------->
-            <div id="home-heading1" class="h-min w-full flex items-center justify-start gap-[20px] py-[10px]">
+            <div id="home-heading1"
+                class="h-min w-full flex items-center justify-center xl:justify-start gap-[20px] py-[10px]">
                 <h1 class="text-[50px] sm:text-[80px] md:text-[100px] lg:text-[120px] text-[#f4f3ec]">EXPLORE</h1>
-                <img src="home-head-img.jpg" alt="img" class="h-[45px] w-[45px] md:h-[100px] md:w-[100px] rounded-full border-2 border-white">
+                <img src="home-head-img.jpg" alt="img"
+                    class="h-[45px] w-[45px] md:h-[100px] md:w-[100px] rounded-full border-2 border-white">
             </div>
             <!-----------------------  heading 2  ------------------------------>
-            <div id="home-heading2" class="h-min w-full flex items-center justify-start gap-[20px] pl-[5px] py-[10px]">
-                <div class="h-[30px] sm:h-[45px] w-[100px] sm:w-[120px] flex items-center justify-center bg-orange-500 shadow-lg shadow-orange-500/50">
+            <div id="home-heading2"
+                class="h-min w-full flex items-center justify-center xl:justify-start gap-[20px] pl-[5px] py-[10px]">
+                <div
+                    class="h-[35px] sm:h-[45px] w-[100px] sm:w-[120px] flex items-center justify-center bg-orange-500 shadow-lg shadow-orange-500/50">
                     <i class="fa-solid fa-arrow-right text-[20px] sm:text-[30px] text-[#f4f3ec]"></i>
                 </div>
                 <h1 class="text-[50px] sm:text-[80px] md:text-[100px] lg:text-[120px] text-[#f4f3ec]">WORLD</h1>
-            </div>          
+            </div>
             <!-----------------------  paragraph  ----------------------------->
-            <div id="home-para" class="h-min w-full flex items-center justify-start px-[10px]">
-                <p class="text-[#f4f3ec] text-[16px] sm:text-[20px]">Travel is the movement of people between distant geographical locations. Travel Can be done by foot, bicycle.</p>
+            <div id="home-para"
+                class="h-min w-full flex items-center justify-center xl:justify-start px-[10px] mt-[30px]">
+                <p class="text-[#f4f3ec] text-[16px] sm:text-[20px] w-full text-center">Travel is the movement of people
+                    between distant geographical locations. Travel Can be done by foot, bicycle.</p>
             </div>
         </div>
         <!---------------------  home img  ------------------------------->
-        <div id="home-img" class="h-[500px] xl:h-full w-full xl:w-[40%] flex items-center justify-center bg-yellow-300"></div>
+        <div id="home-img"
+            class="h-min xl:h-full w-full xl:w-[40%] flex items-center justify-center py-[20px] sm:py-[30px]">
+            <div id="home-img-box" class="h-[400px] w-[400px]"></div>
         </div>
+    </div>
+
+    <!-------------------------- about section ------------------------->
+    <div id="about"
+        class="h-min xl:h-[170px] w-full flex flex-col xl:flex-row items-center justify-between gap-[30px] xl:gap-0 px-[10px] sm:px-[20px] py-[20px]">
+        <div class="h-full w-full flex flex-col xl:flex-row gap-[30px] xl:gap-0 items-center justify-between">
+            <!--------------------------  box 1  ------------------------>
+            <div id="box1" class="h-[100px] w-[300px] flex">
+                <div id="box1-img"
+                    class="h-full w-[160px] flex items-center justify-center px-[5px]">
+                    <img src="home-head-img.jpg" alt="img" class="h-[90px] w-[90px] rounded-full border border-[blueviolet]">
+                    <img src="home-img.jpg" alt="img" class="h-[90px] w-[90px] rounded-full -ml-[30px] border border-[blueviolet]">
+                </div>
+                <div id="box1-content"
+                    class="h-full w-[150px] text-[#f4f3ec] pl-[10px] flex flex-col justify-center">
+                    <h1 class="text-[30px] text-[#f36f0f]">10,000+</h1>
+                    <p>Travel Places</p>
+                </div>
+            </div>
+
+            <!--------------------------  box 2  ------------------------>
+            <div id="box2" class="h-[100px] w-[300px] flex">
+                <div id="box2-content"
+                    class="h-full w-[200px] text-[#f4f3ec] flex flex-col items-center justify-center">
+                    <h1 class="text-[30px] text-[#f36f0f]">Features</h1>
+                    <p>People Visit</p>
+                </div>
+                <div id="box2-img"
+                    class="h-full w-[100px] flex items-center justify-center px-[5px]">
+                    <img src="box-2.jpg" alt="img" class="h-[90px] w-[90px] rounded-full border-2 border-[blueviolet]">
+                </div>
+            </div>
+
+            <!--------------------------  box 3  ------------------------>
+            <div id="box3" class="h-[100px] w-[500px] flex items-center">
+                <div id="box3-content" class="h-full w-[420px] text-[#f4f3ec] flex flex-col items-center justify-center">
+                    <h1 class="text-[30px] text-[#f36f0f]">Our Story</h1>
+                    <p class="w-full text-center">Travel is the movement of people between distant geographical locations.</p>
+                </div>
+                <div id="box3-img"
+                    class="h-[80px] w-[60px] flex items-center justify-center bg-orange-500 shadow-lg shadow-orange-500/50">
+                    <i class="fa-solid fa-arrow-right text-[20px] sm:text-[30px] text-[#f4f3ec]"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--------------------------  script js  --------------------------->
     <script src="script.js"></script>
 </body>
+
 </html>
