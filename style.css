@@ -50,4 +50,23 @@ button:hover {
 }
 
 /************************  home section  ************************/
-/************************  home img  ************************/
+#home-heading1 img {
+    border: 2px solid blueviolet;
+    box-shadow: 0px 0px 5px blueviolet;
+}
+
+#home-heading2 div {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 50px;
+}
+
+@media (max-width: 400px) {
+    #home-heading1 h1 {
+        font-size: 25px;
+    }
+
+    #home-heading2 h1 {
+        font-size: 25px;
+    }
+}
